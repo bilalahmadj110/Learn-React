@@ -1,10 +1,12 @@
 import React from 'react';
 import "./box.css";
+import InputText from "./input-text";
 
 const Box = () => {
     return (
         <div className="box">
-            <h1>Box</h1>
+            <h1>To-Do List</h1>
+            <InputText/>
         </div>
     );
 }

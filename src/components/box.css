@@ -1,0 +1,22 @@
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: first baseline;
+    text-align: center;
+    flex-direction: column;
+
+    padding: 0 20px;
+
+}
